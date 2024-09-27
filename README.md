@@ -49,7 +49,7 @@ public:
     }
 
     void displayVitalSigns() {
-        std::cout << "Patient: " << patientName << " from " << country << std::endl;
+        std::cout << "Patient: " << patientFarai << " from " << country << std::endl;
         std::cout << "Heart Rate: " << heartRate << std::endl;
         std::cout << "Blood Pressure: " << systolicBP << "/" << diastolicBP << std::endl;
         std::cout << "Temperature: " << temperature << " Celsius" << std::endl;
@@ -57,7 +57,7 @@ public:
 };
 
 int main() {
-    TelemedicineMonitoringSystem patientMonitor("John Doe", "Zimbabwe");
+    TelemedicineMonitoringSystem patientMonitor("Farai Nyasango", "Zimbabwe");
 
     // Update and display vital signs
     patientMonitor.updateVitalSigns(75, 120, 80, 37.2);
