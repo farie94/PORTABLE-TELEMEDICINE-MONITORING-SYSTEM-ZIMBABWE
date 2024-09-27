@@ -1,5 +1,5 @@
 # PORTABLE-TELEMEDICINE-MONITORING-SYSTEM-ZIMBABWE
-PTMSZ
+
 Doctor logs in , Patient logs in by filling his issues.
 Both go in to video conference call and discuss issues.
 Doctor fills advice.
